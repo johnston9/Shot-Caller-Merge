@@ -1,0 +1,264 @@
+.App {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.Main {
+  padding-top: 70px;
+}
+
+.Content {
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+}
+
+.Content2 {
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  min-height: 200px;
+}
+
+.FillerImage {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.Image {
+  height: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.iframe {
+  height: 120px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.iframeFull {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #555555;
+  transition: color ease-in-out 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover i {
+  color: #2142b2;
+  transition: color ease-in-out 0.3s;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+body i {
+  color: #fff;
+  font-size: 1rem !important;
+  padding: 7px;
+  vertical-align: middle;
+}
+
+i:hover {
+  cursor: pointer;
+  transition: color ease-in-out 0.3s;
+  color: #2142b2;
+}
+
+figure {
+  text-align: center;
+  display: inline-block;
+}
+
+/* scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*----------------Fonts--------------------*/
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.playball {
+  font-family: 'Playball', cursive;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+/*-----line breaks------*/
+
+hr.gold50 {
+  border-top: 2px solid gold;
+  margin: 10px auto 0px;
+  width: 50%;
+}
+
+hr.gold70 {
+  border-top: 2px solid gold;
+  margin: 5px auto 5px;
+  width: 70%;
+}
+
+hr.gold100 {
+  border-top: 2px solid gold;
+  margin: 5px auto 5px;
+  width: 100%;
+}
+
+hr.goldleft {
+  border-top: 2px solid gold;
+  width: 200px;
+}
+
+hr.grey100 {
+  border-top: 2px solid #666666;
+  margin: 5px auto 0px;
+  width: 100%;
+}
+
+/*---------------------colours----------------------------*/
+
+.goldbright {
+  color: rgb(255, 215, 0);
+}
+
+.golddark {
+  font-weight: 700;
+  color: rgb(140, 111, 25, 99%);
+}
+
+.light-blue {
+  background: rgb(232, 240, 254);
+}
+
+.shadow-light {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.shadow-light1 {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.link-color1 {
+  color: rgb(143, 212, 241);
+}
+
+.link-color {
+  color: rgb(170 231 255);
+}
+
+.antiquewhite {
+  color: antiquewhite;
+}
+
+.blue-sea-dark {
+  color: #0077a7;
+}
+
+.blue-sea {
+  color: #0087BE;
+}
+
+.blueBack-sea {
+  background-color: #0077a7;
+}
+
+.blue-sky {
+  color: #1AA6E4;
+}
+
+.aqua {
+  background-color: aquamarine;
+}
+
+.greentext {
+  color: #26a69a;
+}
+
+.crimson {
+  color: crimson;
+}
+
+.crimson-back {
+  background-color: crimson;
+}
+
+.matt-black {
+  background-color: #3b444b;
+}
+
+.border-red {
+  border-left: 3px solid crimson;
+}
+
+.textmatt-black {
+  color: #2e5b7e;
+}
+
+.white-back {
+  background-color: #F5F5F5;
+}
+
+.body-back {
+  background-color: #353839;
+}
+
+.offwhite {
+  color: #F5F5F5;
+}
+
+/*--------------------register/login pages-----------------------*/
+
+
+
+
+label[for="image-upload1"],
+label[for="image-upload2"],
+label[for="image-upload3"],
+label[for="image-upload4"],
+label[for="image-upload5"] {
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}

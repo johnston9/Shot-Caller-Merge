@@ -1,0 +1,460 @@
+.Container {
+  min-height: 100px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/* CallsheetTop */
+.BoldBase {
+  color: #1ea7ae;
+}
+
+.Top {
+  background-color: #1ea7ae;
+  color: #fff;
+}
+
+.Top:hover {
+  background-color: #27c6cf;
+  color: #fff;
+}
+
+.Inner {
+  background-color: #fafafa;
+  color: #000;
+}
+
+.Width95 {
+  width: 95%;
+}
+
+.Top:hover .Inner {
+  background-color: #27c6cf;
+  color: fff;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+  font-weight: 700;
+}
+
+.SubTitle2 {
+  background-color: #d6fcff;
+  font-weight: 700;
+  width: 20%;
+  color: rgba(129, 102, 21, 0.99);
+  color: #000;
+}
+
+.SubTitle2 p {
+  color: #000000;
+}
+
+.SubTitle3 {
+  background-color: #e4f2f4;
+  font-weight: 700;
+}
+
+.Map {
+  cursor: pointer;
+}
+
+.BodyColor {
+  background-color: #f8f8f8;
+  height: 40px;
+}
+
+.Red {
+  color: crimson;
+}
+
+.WhiteAqua {
+  background-color: #f6fffe;
+}
+
+.WhiteAquaPro {
+  background-color: #f6fffe;
+  font-family: Playball;
+}
+
+.WhiteAquaAdd {
+  background-color: #f6fffe;
+  font-family: Playfair;
+}
+
+.WhiteAquaAdd2 {
+  background-color: #f6fffe;
+  font-family: Playfair;
+}
+.WhiteAquaAdd3 {
+  background-color: #f6fffe;
+  font-family: Parisienne;
+}
+.WhiteAquaAdd4 {
+  background-color: #f6fffe;
+  font-family: Parisienne;
+}
+
+.Close {
+  color: rgb(28, 131, 131);
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.Close:hover {
+  color: rgb(60, 237, 237);
+  cursor: pointer;
+}
+
+#dropdown-basic-button {
+  padding: 0.1rem 0.1rem;
+  color: #000;
+}
+
+.DropButt {
+  color: #000;
+}
+
+.dropdown-toggle.btn.btn-primary {
+  color: #000;
+}
+
+.CloseIns {
+  color: red;
+}
+
+.BorderRight {
+  border-right: 1px solid #d0d9db;
+  /* border-right: 1px solid rgba(100, 80, 20, 0.99); */
+}
+
+.Back {
+  background-color: rgb(242, 247, 252);
+}
+
+.Back2 {
+  background-color: #ffffff;
+}
+
+.Back3 {
+  background-color: rgb(241 248 253);
+}
+
+.Crew {
+  min-height: 50px;
+}
+
+.White {
+  background-color: #fff;
+}
+
+.CallLogoDiv {
+  height: 80px;
+  border: 2px solid #456989;
+}
+
+.CallLogoDivMob {
+  height: 60px;
+  border: 2px solid #456989;
+}
+
+.UnitCall {
+  background-color: #c1f1f7;
+  color: #000;
+}
+
+.MovieName {
+  color: #000;
+  font-size: 2.5rem;
+  background-color: #f6fffe;
+  font-family: Playball;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.MovieNameMo {
+  color: #000;
+  font-size: 1.75rem;
+  background-color: #f6fffe;
+  font-family: Playball;
+}
+
+.Logo {
+  height: 100px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.LogoMo {
+  height: 50px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.YourCallMed {
+  background-color: #c1f1f7;
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.YourCallMob {
+  background-color: #c1f1f7;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.YourCallMobUser {
+  background-color: #c1f1f7;
+  color: #000;
+  font-size: 1rem;
+}
+
+.UnitCallMed {
+  background-color: #f6fffe;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.UnitCallMob {
+  background-color: #f6fffe;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.UnitCallMedDate {
+  background-color: #e9fffd;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.UnitCallMobDate {
+  background-color: #e9fffd;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.UnitCallMedDay {
+  background-color: #f6fffe;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.UnitCallMobDay {
+  background-color: #f6fffe;
+  color: #000;
+  font-size: 1rem;
+}
+.UnitCallBorder {
+  color: #000;
+  border: 3px solid #c1f1f7;
+}
+
+.Titles {
+  background-color: #dbf2f5;
+  color: #000;
+}
+
+.CrewInfoRow {
+  border-bottom: 1px solid #fff;
+}
+
+.CrewInfoRowAdd {
+  border-bottom: 1px solid #fff;
+}
+
+.CrewInfoP {
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #616370;
+}
+
+.CrewInfop {
+  margin-bottom: 3px;
+  color: #616370;
+}
+
+.Button {
+  color: #185f70;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Button:hover {
+  color: #32c0e4;
+}
+
+.Important {
+  background-color: antiquewhite;
+}
+
+.ImportantText {
+  color: #000;
+}
+
+.CastEntered {
+  background-color: #deedfa;
+  min-height: 40px;
+}
+
+.Red {
+  color: red;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Title {
+  background-color: #fff;
+}
+
+.Input {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+  height: 35px !important;
+}
+
+.InputScene {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+}
+
+.TitleBox {
+  background-color: #e8f0f1;
+  color: #000;
+}
+
+.TitleBox2 {
+  border-right: 2px solid #fff;
+}
+
+.Border2 {
+  border: 2px solid #e8f0f1;
+}
+
+.Border {
+  border-bottom: 2px solid #e8f0f1;
+  border-left: 2px solid #e8f0f1;
+  border-right: 2px solid #e8f0f1;
+}
+
+.HSpan {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.SubTitleSpan {
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.FormBox {
+  background-color: aliceblue;
+  font-weight: 700;
+}
+
+.ScenesBox {
+  background-color: #eaf2fa;
+}
+
+.NextCall {
+  background-color: #fffff5;
+  color: #000;
+}
+
+.Drop i {
+  color: #000;
+}
+
+/* info */
+
+.SceneBox {
+  border: 1px solid #fafafa;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.BoldTitle {
+  font-weight: 700;
+  background-color: rgb(209, 240, 240);
+}
+
+.Image {
+  height: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Order */
+
+.OrderBox {
+  background-color: rgb(209, 240, 240);
+}
+
+.Width {
+  width: 70%;
+}
+
+.Width2 {
+  width: 80%;
+}
+
+.Width3 {
+  width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .Width {
+    width: 90%;
+  }
+
+  .Width2 {
+    width: 90%;
+  }
+
+  /* .Width95 {
+    width: 100%;
+  } */
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .Width3 {
+    width: 50%;
+  }
+
+  .Width {
+    width: 90%;
+  }
+
+  .SubTitle2 {
+    width: 90%;
+  }
+
+  .SubTitle3 {
+    width: 90%;
+  }
+
+  .SubTitle4 {
+    width: 90%;
+  }
+}

@@ -1,0 +1,60 @@
+.NavBar {
+    background-color: #ffffff;
+    border: 1px solid #dadadf;
+    color: black;
+  }
+
+.NavLink {
+  padding: 2px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+a.NavLink{
+  margin-top: -3px !important;
+}
+
+.NavLink:active p {
+  color: red;
+}
+
+.nav a.active {
+  color: #fff;
+  background: #7600dc;
+}
+.nav a.inactive {
+  font-style: italic;
+}
+
+/* .NavLink:active i {
+  color: red;
+}
+
+.NavLink:active {
+  color: red;
+} */
+
+.DropLink {
+  color: black;
+}
+
+.HomeLink {
+  color: #555555,
+}
+
+.Active i {
+  color: #2142b2;
+}
+
+.Active {
+  color: #2142b2;
+}
+
+Title {
+  color: #000;
+}
+
+i {
+  color: rgb(41, 180, 180);
+  font-size: .5em !important;
+}

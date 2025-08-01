@@ -1,0 +1,38 @@
+.BlueBack {
+  height: 20px;
+}
+
+.White {
+  background-color: #fff;
+}
+
+.BoldTitle2 {
+  font-weight: 700;
+  border-right : 3px solid #fafafa;
+  background-color: #d6fcff;
+}
+
+.CharactersTitle {
+  color: rgb(40, 189, 189);
+  font-style: italic;
+}
+
+.Item {
+    background-color: #1ea7ae;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+.Item:hover {
+    background-color: #3b444b;
+} 
+
+.ItemNu {
+  background-color: #55c8ce;
+  /* background-color: #1ea7ae; */
+  color: #fff;
+} 
+
+.Italic {
+  font-style: italic;
+}

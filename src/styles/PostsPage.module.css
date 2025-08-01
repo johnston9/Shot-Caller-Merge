@@ -1,0 +1,35 @@
+.SearchBar input {
+    border-radius: 20px;
+    color: #242a3d;
+    padding-left: 40px;
+    margin-bottom: 16px;
+  }
+
+.Info {
+  color: #000;
+}
+
+.Top {
+  background-color: #1ea7ae;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+.Top:hover {
+  background-color: #22b9c1;
+  color: #fff;
+}
+
+.Top i:hover {
+  color: #fff;
+}
+
+.Title {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .Titlelist {
+    font-size: .75rem ;
+  }
+}

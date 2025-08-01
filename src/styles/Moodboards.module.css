@@ -1,0 +1,79 @@
+.MoodTop {
+  background-color: #1ea7ae;
+  color: #fff;
+}
+
+.Date {
+  font-size: .7rem;
+}
+.MoodTop:hover i {
+  color: #666;
+}
+
+.Edit {
+  color: rgb(144, 158, 161);
+}
+
+.MoodTop i:hover {
+  color: #666;
+  }
+  
+.MoodTop2 {
+background-color: #fff;
+color: #000;
+}
+
+.Content {
+  background-color: #fff;
+  cursor: pointer;
+  height: 100%;
+  color: #666;
+}
+
+.Content3 {
+  background-color: #3b444b;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.MoodTop i {
+  color: #666;
+}
+
+.Content3:hover {
+  /* background-color: #0f3d4c;
+  color: #fafafa; */
+  background-color: #fafafa;
+  color: #40d6de;
+  cursor: pointer;
+}
+
+.ContentTitleUnOpen {
+  color: #40d6de;
+}
+
+.ImagesLand {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+/* .Content1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.Content2:hover {
+  cursor: pointer;
+  color: #fff;
+} 
+
+.Content1:hover .Content2{
+  color: #fff;
+  cursor: pointer;
+}
+
+.Content2:hover .Content1 {
+  cursor: pointer;
+  color: #fff;
+}  */

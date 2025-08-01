@@ -1,0 +1,126 @@
+.Container {
+  min-height: 100px;
+}
+.Container2 {
+    min-height: 10px;
+  }
+
+.Back {
+  background-color: aliceblue;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Width {
+  width: 50%;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+  font-weight: 700;
+}
+
+.SubTitle2 {
+  /* background-color: #e0fafe; */
+  background-color: #d6fcff;;
+  font-weight: 700;
+}
+
+.SubTitle3 {
+  background-color: #e4f2f4;
+  font-weight: 700;
+}
+
+.BoldScene {
+  color: rgba(129, 102, 21, 0.99);
+  font-weight: 600;
+}
+
+.Close {
+  /* color: rgb(28, 131, 131); */
+  color: rgb(32, 201, 201);
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: .75rem;
+}
+
+.Width {
+  width: 70%;
+}
+
+.Width2 {
+  width: 80%;
+}
+
+.Width3 {
+  width: 80%;
+}
+
+.Width95 {
+  width: 95%;
+}
+
+.Input {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+  height: 30px !important;
+  text-align: center;
+}
+
+.InputScene {
+ background: #ffffff;
+ border: 1px solid #f0f1f9;
+ box-sizing: border-box;
+ border-radius: 2px;
+ color: #7177a1;
+ padding: 0px 10px;
+}
+
+.InputChar {
+ background: #ffffff;
+ border: 1px solid #f0f1f9;
+ box-sizing: border-box;
+ border-radius: 2px;
+ color: #7177a1;
+ padding: 0px 0px;
+ height: 30px !important;
+}
+
+.BoldTitle {
+  font-weight: 700;
+  background-color: rgb(209, 240, 240);
+}
+
+@media screen and (max-width: 600px) {
+  .Width {
+    width: 90%;
+  }
+
+  .Width2 {
+    width: 90%;
+  }
+
+  .Width95 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .Width3 {
+    width: 50%;
+  }
+}

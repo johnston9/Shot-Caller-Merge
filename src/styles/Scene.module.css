@@ -1,0 +1,569 @@
+/* scene card  */
+
+.DeptImageBox {
+  background-color: #000;
+  color: #fff;
+}
+
+.DeptImageBox:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.Italic {
+  font-style: italic;
+}
+
+.TitleBox {
+  background-color: #e8f0f1;
+  color: #333;
+}
+
+.TitleBox2 {
+  border-right: 1px solid #fafafa;
+  color: #333;
+}
+
+.TitleBox3 {
+  border-left: 1px solid #72dbe2;
+  border-bottom: 1px solid #72dbe2;
+  color: #333;
+}
+
+.TitleBox4 {
+  border-left: 1px solid #72dbe2;
+  border-right: 1px solid #fafafa;
+  border-bottom: 1px solid #72dbe2;
+  color: #333;
+}
+
+.TitleBox4 {
+  border-right: 1px solid #72dbe2;
+  border-bottom: 1px solid #72dbe2;
+  color: #333;
+}
+
+.TitleBox5 {
+  border-bottom: 1px solid #72dbe2;
+  color: #333;
+}
+
+.InfoBack {
+  background-color: #fff;
+}
+
+.InfoBack p {
+  font-size: 0.75rem;
+}
+
+.Story {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.Frame {
+  height: 1000px;
+}
+
+.Images {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.White {
+  background-color: #fff;
+  min-height: 30px;
+}
+
+.Crimson {
+  color: rgb(231, 64, 97);
+}
+
+.Header {
+  background-color: #fff;
+}
+
+.SceneCard {
+  margin: 5px;
+  border: 5px solid #fff;
+  background-color: rgb(228, 245, 250);
+  transition-timing-function: ease;
+  transition: border 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.SceneCard:hover {
+  background-color: rgb(209, 227, 250);
+  color: #000;
+  /* animation: bounce 1s; */
+  /* -webkit-transform: scale(1.1); */
+  /* -ms-transform: scale(1.1); */
+  /* transform: scale(1.1); */
+  z-index: 98 !important;
+  /*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
+}
+
+/* @keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+} */
+
+.SceneCard i {
+  color: #fff;
+}
+
+.SceneCard i:hover {
+  color: #000;
+}
+
+.AddScene {
+  background-color: cornsilk;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.ButtonLine {
+  background-color: #fff;
+  border-top: 3px solid #fff;
+}
+.Break {
+  border-top: 10px solid #d0d9db;
+}
+
+.BoldTitle {
+  font-weight: 700;
+  background-color: #d6fcff;
+}
+
+.BoldTitle2 {
+  font-weight: 700;
+  border-right: 3px solid #fafafa;
+  background-color: #d6fcff;
+  /* width: 50%; */
+}
+
+.CharactersTitle {
+  color: rgb(40, 189, 189);
+  font-style: italic;
+}
+
+.Para {
+  min-height: 35px;
+}
+
+.BorderRight {
+  border-right: 1px solid #d0d9db;
+}
+
+.CharactersTitle2 {
+  color: rgb(36, 125, 125);
+  font-style: italic;
+}
+
+.Actor {
+  background-color: rgb(227, 246, 246);
+  min-height: 65px;
+}
+
+.Button {
+  color: aqua;
+  cursor: pointer;
+}
+
+.Button:hover {
+  color: rgb(34, 153, 153);
+}
+
+.Close {
+  /* color: rgb(28, 131, 131); */
+  color: rgb(32, 201, 201);
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.Crimson {
+  color: crimson;
+}
+
+.Blue {
+  color: rgb(50, 204, 204);
+}
+
+.Close:hover {
+  color: rgb(0, 8, 8);
+}
+
+.CloseIns {
+  color: red;
+}
+
+.CloseIns:hover {
+  color: rgb(231, 226, 226);
+}
+
+.BreakBox {
+  border: 1px solid aquamarine;
+  min-height: 100px;
+}
+
+.BreakBoxTitle {
+  color: crimson;
+}
+
+.BoldScene {
+  color: rgb(140, 111, 25, 99%);
+}
+
+.BoldScene {
+  color: rgba(129, 102, 21, 0.99);
+  font-weight: 600;
+}
+
+.BoldSceneI {
+  color: rgba(129, 102, 21, 0.99);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+  font-weight: 700;
+}
+
+.SubTitle2 {
+  background-color: #d6fcff;
+  font-weight: 700;
+}
+
+.SubTitle3 {
+  background-color: #e4f2f4;
+  font-weight: 700;
+}
+
+.GuideTitle {
+  font-style: italic;
+  background-color: #e8f0f1;
+}
+
+.Guide {
+  background-color: aliceblue;
+}
+
+.GuideBox {
+  background-color: aliceblue;
+  min-height: 50px;
+}
+
+.Button {
+  color: rgb(10, 173, 173);
+}
+
+.Button:hover {
+  color: rgb(9, 182, 182);
+}
+
+.Instructions {
+  background-color: aliceblue;
+}
+
+.Guide {
+  background-color: aliceblue;
+}
+
+.Break {
+  border-bottom: #000;
+  background-color: #000;
+  color: #000;
+}
+
+.Break1 {
+  border-top: 10px solid #d0d9db;
+}
+
+.Break1 {
+  border-top: 1px solid #d0d9db;
+  /* border-top: 1px solid rgb(140, 111, 25, 99%); */
+}
+
+.Break2 {
+  border-top: 5px solid #d0d9db;
+}
+
+.UniImg {
+  max-height: 130px;
+  cursor: pointer;
+}
+
+.CardBox {
+  border: 1px solid #fff;
+  transition-timing-function: ease;
+  transition: border 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.CardBox:hover {
+  border: 1px solid rgb(255, 255, 255);
+  /* animation: bounce 1s; */
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+}
+
+.CostumeLink {
+  color: rgb(26, 172, 172);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.CostumeLink:hover {
+  color: rgb(228, 103, 72);
+}
+
+.SearchBar input {
+  border-radius: 20px;
+  color: #242a3d;
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+
+.SearchIcon {
+  position: absolute;
+  font-size: 1.2rem;
+  padding: 9px;
+  padding-left: 15px;
+}
+
+.SearchIcon:hover {
+  cursor: default;
+  color: #cfced3;
+}
+
+.Edit {
+  color: #fff;
+}
+
+.Edit:hover {
+  color: #fff;
+}
+
+.Action {
+  font-size: 1rem;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Italics {
+  font-style: italic;
+  color: #666;
+}
+
+.Div50 {
+  height: 50px;
+  overflow: hidden;
+}
+
+.Div25 {
+  height: 25px;
+  overflow: hidden;
+}
+
+.ShotInfo {
+  background-color: rgb(226, 250, 255);
+}
+
+.Input {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+  height: 30px !important;
+  text-align: center;
+}
+
+.InputScene {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+}
+
+.InputChar {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 0px;
+  height: 30px !important;
+}
+
+.InputArea {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+  height: 50px !important;
+}
+
+.ShotEditForm {
+  border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+.Back {
+  background-color: #fff;
+}
+
+.AliceBlueMild {
+  background-color: rgb(252, 253, 253);
+}
+
+.Black {
+  color: #000;
+  font-weight: 700;
+}
+
+.Fancyback {
+  background-color: blueviolet;
+  color: #fff;
+  /* border: 5px solid aqua; */
+}
+
+.FancyTop {
+  background-color: #000;
+  color: #fff;
+}
+
+.CastEntered {
+  background-color: #deedfa;
+  min-height: 40px;
+}
+
+.Red {
+  color: crimson;
+}
+
+.Width {
+  width: 50%;
+}
+
+.Width2 {
+  width: 80%;
+}
+
+.Width3 {
+  width: 80%;
+}
+
+.Grey {
+  color: rgb(54, 52, 52);
+}
+
+.Dept {
+  cursor: pointer;
+  border: 5px solid #fff;
+  background-color: rgb(228, 245, 250);
+  transition-timing-function: ease;
+  transition: border 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.Dept:hover {
+  background-color: rgb(181, 223, 236);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.DeptDiv {
+  height: 50%;
+}
+
+.Card i {
+  color: #fff;
+}
+
+.Drop {
+  color: #fff;
+}
+
+.DeptDropdown {
+  color: #fff;
+}
+
+.ContactBack {
+  background-color: #dff3f4;
+}
+
+@media screen and (max-width: 600px) {
+  .Title {
+    font-size: 0.75em;
+  }
+
+  .Titledetail {
+    font-size: 1.25em;
+  }
+
+  .Titlelist {
+    font-size: 1em;
+  }
+  .BoldScene {
+    font-size: 0.75rem !important;
+  }
+
+  .InputScene {
+    font-size: 0.75rem !important;
+  }
+
+  .SceneTitle {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  h5 {
+    font-size: 1rem;
+  }
+  .InfoBack p {
+    font-size: 0.75rem;
+  }
+
+  .Title {
+    font-size: 0.75em;
+  }
+
+  .Titledetail {
+    font-size: 1.25em;
+  }
+
+  .Titlelist {
+    font-size: 1em;
+  }
+
+  .SceneTitle {
+    font-size: 1.25em;
+  }
+}

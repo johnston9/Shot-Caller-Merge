@@ -1,0 +1,100 @@
+.SignupBox {
+  background-color: #353839;
+    width: 100%; 
+}
+
+.Image {
+    max-height: 40vh;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.Inner {
+  background-color: #0b3d63;
+  color: #fafafa;
+}
+
+.Guest {
+  color: #fafafa;
+}
+
+.FillerImagel {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* .FillerImagel {
+    object-fit: cover;
+    height: 300px;
+    width: 50px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+  } */
+
+  .FillerImager {
+    object-fit: contain;
+    height: 300px;
+    width: 50px;
+    margin-top: 30px;
+    /* background-image: url("./images/door66l.png"); */
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+.Form {
+  background-color: #3b444b;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+
+.Input {
+    background: #3b444b;
+    /* border: 1px solid #3b444b; */
+    box-sizing: border-box;
+    border-bottom:  1px solid #fff;
+    border-top: 1px solid #3b444b;
+    border-left: 1px solid #3b444b;
+    border-right: 1px solid #3b444b;
+    /* border-radius: 2px; */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.Header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #2142b2;
+}
+
+.Link {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: antiquewhite;
+}
+
+.Link span {
+  color: rgb(170 231 255);
+}
+
+.Container {
+  padding: 30px 10px;
+}
+
+.SignInCol {
+  height: 320px;
+}
+
+.SignUpCol {
+  height: 375px;
+}

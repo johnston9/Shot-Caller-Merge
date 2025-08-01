@@ -1,0 +1,175 @@
+.PostTop {
+  background-color: #1ea7ae;
+  color: #fff;
+}
+
+.PostTop2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.Date {
+  font-size: 0.7rem;
+}
+
+.ContentUnOpen {
+  background-color: #2a2f34;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.ContentTitleUnOpen {
+  color: #40d6de;
+}
+
+.ContentUnOpen:hover {
+  /* background-color: #0f3d4c;
+  color: #fafafa; */
+  background-color: #fafafa;
+  color: rgb(157, 21, 48);
+  cursor: pointer;
+}
+
+.ContentUnOpen:hover .ContentTitleUnOpen {
+  color: rgb(157, 21, 48);
+}
+
+.ContentOpened {
+  background-color: #fafafa;
+  color: #1ea7ae;
+  cursor: pointer;
+}
+
+.ContentTitleOpened {
+  color: #1f6370;
+}
+
+.ContentOpened:hover {
+  /* background-color: #0f3d4c; */
+  color: rgb(157, 21, 48);
+  /* cursor: pointer; */
+}
+
+.ContentOpened:hover .ContentTitleOpened {
+  color: rgb(157, 21, 48);
+}
+
+.Images {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.iFrame {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.Icons {
+  font-size: 0.75rem;
+}
+
+.Post figure,
+h5 {
+  margin: 0 0;
+}
+
+.Edit {
+  color: #fff;
+}
+
+.Edit:hover {
+  color: #fff;
+}
+
+i:hover {
+  color: #2142b2;
+}
+
+.Star {
+  color: gold;
+  font-size: 0.75rem;
+}
+
+.Heart {
+  color: crimson;
+  font-size: 0.75rem;
+}
+
+.Comment {
+  color: #f832f5;
+  font-size: 0.75rem;
+}
+
+/* .GoToScene {
+  color: #fff;
+  font-weight: 700;
+  font-size: .75em;
+  cursor: pointer;
+}
+.GoToScene:hover {
+  color: #000;
+}
+
+.GoToScene a {
+  color: #79f5ef;
+  font-weight: 700;
+  font-size: .75em;
+  cursor: pointer;
+}
+.GoToScene a:hover {
+  color: #e9f1f1;
+} */
+
+.PostTopText {
+  color: #205a6e;
+}
+
+/* .Content1 {
+  color: #1ea7ae;
+  cursor: pointer;
+} 
+
+.Content2 {
+  cursor: pointer;
+  color: #000;
+}
+
+.Content1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.Content2:hover {
+  cursor: pointer;
+  color: #fff;
+}  */
+
+.Red {
+  color: crimson;
+}
+
+.White {
+  color: #fff;
+}
+
+.ContentDep {
+  background-color: #444a4c;
+  color: #79f5ef;
+  cursor: pointer;
+}
+
+.ContentDep:hover {
+  background-color: #232d30;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Card i {
+  color: #fff;
+}
+
+/*.PostTop i {
+  color: #fff;
+}*/

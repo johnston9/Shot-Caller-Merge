@@ -1,0 +1,55 @@
+.WordBreakWhite {
+  color: #fff;
+}
+
+.Position {
+  font-style: italic;
+  color: #000;
+}
+.Back {
+  background-color: #1ea7ae;
+  color: #000;
+  height: 180px;
+}
+
+.Back2 {
+  background-color: #2c9da3;
+  color: #ffffff;
+}
+
+.CardHead {
+  height: 140px;
+}
+
+.CardHead:hover {
+  background-color: #22b9c1;
+}
+
+.Likes {
+  color: #fff;
+  font-weight: 700;
+}
+.Follow {
+  background-color: #58666b;
+  color: #fff;
+}
+
+a:hover {
+  color:aqua
+}
+
+/* profilepage */
+
+.ProfileImage {
+  object-fit: cover;
+  height: 120px;
+  width: 120px;
+  margin: 4px;
+}
+
+@media screen and (max-width: 991px) {
+  .ProfileImage {
+    width: 80px;
+    height: 80px;
+  }
+}

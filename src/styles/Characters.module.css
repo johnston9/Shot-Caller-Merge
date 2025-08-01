@@ -1,0 +1,90 @@
+.SearchBar input {
+    border-radius: 20px;
+    color: #242a3d;
+    padding-left: 40px;
+    margin-bottom: 16px;
+  }
+
+.Info {
+  color: #000;
+}
+
+.Top {
+  background-color: #1ea7ae;
+  color: #fff;
+  border: 1px solid #fff;
+  transition-timing-function: ease;
+  transition: border .5s, background-color .5s, transform .5s;
+}
+
+.Top i {
+  color: #666;
+}
+
+.Top:hover {
+  background-color: #5de6ed;
+  color: #000;
+  /* -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05); */
+  /* transform: scale(1.05);  */
+}
+
+.Top:hover i {
+  color: #000;
+}
+
+.ImagesLand {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.Images {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.Header {
+  background-color: #fff;
+}
+
+.Bold { 
+  font-weight: 700;
+}
+
+.ButtonLine {
+  background-color: #fff;
+  border-top: 3px solid #fff;
+}
+
+.BoldTitle {
+  font-weight: 700;
+  /* background-color: rgb(209, 240, 240); */
+  background-color: #d6fcff;
+  /* width: 50%; */
+}
+
+.Button {
+  color: rgb(41, 180, 180);
+  cursor: pointer;
+}
+
+i {
+  color: rgb(41, 180, 180);
+}
+
+.Title {
+  background-color: #fff;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .Titlelist {
+    font-size: .75rem ;
+  }
+}

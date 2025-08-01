@@ -1,0 +1,44 @@
+.Box {
+    padding: 10px;
+}
+
+.WhiteAqua {
+  background-color: #f6fffe;
+}
+
+
+.Input {
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #f0f1f9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #7177a1;
+    text-align: center;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.Bold { 
+    font-weight: 700;
+  }
+
+/* .Input {
+    background: #ffffff;
+    border: 1px solid #f0f1f9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #7177a1;
+    padding: 0px 10px;
+    height: 30px !important;
+    text-align: center;
+  } */
+
+  .SubTitle {
+    background-color: #e8f0f1;
+    font-weight: 700;
+  }

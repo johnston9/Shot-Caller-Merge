@@ -1,0 +1,42 @@
+.DropdownItem {
+    display: inline-block;
+    max-width: 50%;
+    padding: 0px;
+    z-index: 99 !important;
+  }
+
+  .DropdownItem {
+    padding: 0px;
+    z-index: 99 !important;
+  }
+
+.Menu {
+  position: absolute !important;
+  right: 0 !important;
+  left: auto !important;
+  z-index: 99 !important;
+  color: red;
+  top: 20px !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+  background: #fff !important;
+  height: auto !important;
+  inset: 5px auto auto -145px !important;
+
+}
+  
+  .Absolute {
+    position: absolute;
+    right: 0; 
+    top: 200; 
+  }
+
+  .Rel {
+    position: relative;
+  }
+
+  .DropdownItem i {
+    color: #666;
+  }
+  .Dots {
+    color: #666 !important;
+  }

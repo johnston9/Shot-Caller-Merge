@@ -1,0 +1,110 @@
+.Container {
+    background-color: #353839;
+    background-color: #fff;
+    margin: 0; 
+    width: 100vh;  
+}
+
+.RegBoxSign {
+    background-color: #353839;
+    margin: 0;  
+    width: 100%; 
+}
+
+.RegBox {
+    background-color: #353839;
+    margin: 0;  
+    width: 100%; 
+}
+
+.Titlebox {
+	background-color: #3b444b;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.BlueBody {
+    background-color: rgb(235, 250, 250);
+}
+
+.Longboxl {
+    color: rgb(255, 6, 6);
+    margin-top: 30px;
+}
+
+.Longboxr {
+    color: rgb(255, 6, 6);
+    margin-top: 10px;
+}
+
+.Longboxl p {
+    color: rgb(255, 6, 6);
+    margin-bottom: 0;
+}
+
+.Longboxr p {
+    color: rgb(255, 6, 6);
+    margin-bottom: 0;
+}
+
+.SmallPanel {
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.PadLeft1 {
+    padding-left: 10px;
+}
+
+.Door {
+    height: 100%;
+}
+
+.Title {
+    color: #F5F5F5;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.Title2 {
+    color: #F5F5F5;
+}
+
+.Title3 {
+    color: #F5F5F5;
+}
+
+@media screen and (max-width: 600px) {
+    /* .Title {
+        font-size: 1.50em;
+    }
+
+    .Title2 {
+        font-size: 1.50em;
+    } */
+
+    .Title3 {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Title3 {
+        font-size: 1em;
+    }
+
+    .Title {
+        font-size: 1.50em;
+    }
+
+    .Title2 {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Longboxl {
+        margin-left: 25px;
+    }
+}

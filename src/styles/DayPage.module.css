@@ -1,0 +1,81 @@
+.TitleBox {
+  background-color: #e8f0f1;
+  color: #333;
+}
+
+.TitleBox2 {
+  border-right : 1px solid #fafafa;
+  color: #333;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+}
+
+.Bold { 
+  font-weight: 700;
+}
+
+.SearchBar input {
+    border-radius: 20px;
+    color: #242a3d;
+    padding-left: 40px;
+    margin-bottom: 16px;
+  }
+  
+  .SearchIcon {
+    position: absolute;
+    font-size: 1.2rem;
+    padding: 9px;
+    padding-left: 15px;
+  }
+  
+  .SearchIcon:hover {
+    cursor: default;
+    color: #cfced3;
+  }
+
+  .Edit {
+    color: #fff;
+  }
+
+  .Edit:hover {
+    color: #fff;
+  }
+
+  .Action {
+    font-size: 1rem;
+  }
+  
+  .Italics {
+    font-style: italic;
+  }
+
+  .Header {
+    background-color: #fff;
+    /* background-color: rgb(24 23 23 / 6%); */
+  }
+
+  .Div50 {
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .Div25 {
+    height: 25px;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 600px) {
+    .Title {
+      font-size: .75em;
+    }
+
+    .Titledetail {
+      font-size: 1.25em;
+    }
+
+    .Titlelist {
+      font-size: 1.25em;
+    }
+  }

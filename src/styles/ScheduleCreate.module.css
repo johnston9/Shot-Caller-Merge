@@ -1,0 +1,175 @@
+.Container {
+    min-height: 100px;
+  }
+
+.SearchBar input {
+  border-radius: 20px;
+  color: #242a3d;
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+
+.BlueNumber {
+  color: rgb(37, 191, 191);
+}
+
+.Info {
+  color: rgb(170, 27, 55);
+  cursor: pointer;
+}
+
+.Info:hover {
+  color: #e8dce0;
+}
+
+.White {
+  background-color: #fff;
+}
+
+.Back {
+  background-color: aliceblue;
+}
+
+.Container2 {
+    min-height: 10px;
+  }
+
+.Bold { 
+  font-weight: 700;
+}
+  
+.Input {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #7177a1;
+  padding: 0px 10px;
+  height: 35px !important;
+}
+
+.InputScene {
+  background: #ffffff;
+  border: 1px solid #f0f1f9;
+   box-sizing: border-box;
+   border-radius: 2px;
+   color: #7177a1;
+   padding: 0px 10px;
+}
+
+.Number {
+  border-right: 1px solid #eaf2fa;
+}
+
+.Bold { 
+  font-weight: 700;
+}
+
+.Infobox {
+  background-color: #000;
+}
+
+.BoldTitle2 {
+  font-weight: 700;
+  border-right : 3px solid #fafafa;
+  background-color: #d6fcff;
+  /* width: 50%; */
+}
+
+
+.TitleBox3 {
+  color: #666;
+}
+
+.Costume {
+  color: rgb(21, 164, 186);
+}
+
+.HSpan {
+  font-size: .75rem;
+  font-weight: 400;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+}
+
+.FormBox {
+  background-color: aliceblue;
+  font-weight: 700;
+}
+
+.ScenesBox {
+  background-color: #fff;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Width {
+  width: 50%;
+}
+
+.Width2 {
+  width: 80%;
+}
+
+.Width3 {
+  width: 80%;
+}
+
+.Next1 {
+  /* background-color: #14404f;
+  color: #fff; */
+  background-color: #fffff5;
+  color: #333;
+}
+
+.Drop i {
+  color: #000;
+}
+
+i {
+  color: #666;
+}
+
+/* info */
+
+.SceneBox {
+  /* border: 5px solid #f0f1f9; */
+  border: 1px solid #fafafa;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.SubTitle {
+  background-color: #e8f0f1;
+}
+
+.Bold { 
+  font-weight: 700;
+}
+
+.BoldTitle {
+  font-weight: 700;
+  background-color: rgb(209, 240, 240);
+}
+
+/* Order d4e9f5 */
+
+.OrderBox {
+  background-color: rgb(209, 240, 240);
+}
+
+@media screen and (max-width: 600px) {
+  .Width {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .Width3 {
+    width: 50%;
+  }
+}
