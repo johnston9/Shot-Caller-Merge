@@ -47,7 +47,7 @@
   },
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules package-lock.json",
-    "heroku-postbuild": "npm install --legacy-peer-deps && npm run build"
+    "heroku-postbuild": "npm install --legacy-peer-deps && npm run build",
     "start": "PORT=4090 react-scripts start",
     "build": "react-scripts build"
   },
