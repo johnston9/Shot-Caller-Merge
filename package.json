@@ -48,7 +48,7 @@
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules package-lock.json",
     "heroku-postbuild": "npm install --legacy-peer-deps && npm run build",
-    "start": "serve -s build",
+    "start": "npm start",
     "build": "react-scripts build"
   },
   "eslintConfig": {
