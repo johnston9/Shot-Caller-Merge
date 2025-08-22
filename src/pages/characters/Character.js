@@ -1,4 +1,5 @@
-/* Component in CharacterPage to display the Character data */
+/* Component in CharacterPage to display the Character data
+git test */
 import React from "react";
 import Image from "react-bootstrap/Image";
 import { useHistory } from "react-router-dom";
